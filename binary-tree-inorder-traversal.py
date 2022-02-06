@@ -9,12 +9,14 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-        
+
+
 class Solution:
     answer = []
+
     def __init__(self):
         self.answer = []
-        
+
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if root is None:
             return

@@ -13,7 +13,7 @@ class Solution:
         int_val = 0
         p = 0
         for digit in digits[::-1]:
-            int_val += digit * (10**p)
+            int_val += digit * (10 ** p)
             p += 1
         new_list = list(str(int_val + 1))
         return new_list

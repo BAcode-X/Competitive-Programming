@@ -4,6 +4,7 @@
     The relative order of the elements may be changed.
 """
 
+
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         cnt = 0

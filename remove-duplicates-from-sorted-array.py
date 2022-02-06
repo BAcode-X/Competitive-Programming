@@ -5,13 +5,14 @@
 
 """
 
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         cnt = 0
         n = nums.__len__()
         if n:
-            for i in range(n-1):
-                if nums[i] != nums[i+1]:
+            for i in range(n - 1):
+                if nums[i] != nums[i + 1]:
                     nums[cnt] = nums[i]
                     cnt += 1
             nums[cnt] = nums[-1]

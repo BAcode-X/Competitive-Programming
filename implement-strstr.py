@@ -3,6 +3,7 @@
     or -1 if needle is not part of haystack.
 """
 
+
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         try:
