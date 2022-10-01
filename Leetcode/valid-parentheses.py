@@ -11,7 +11,6 @@ class Solution:
             return False
         brackets = []
         opened = ["(", "{", "["]
-        closed = [")", "}", "]"]
         d = {")": "(", "]": "[", "}": "{"}
         for i in s:
             if i in opened:
